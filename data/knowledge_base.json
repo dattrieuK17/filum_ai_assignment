@@ -1,0 +1,74 @@
+[
+    {
+    "feature_id": "voc_surveys_01",
+    "feature_name": "Automated Post-Purchase Surveys",
+    "category": ["VoC - Surveys"],
+    "description": [
+        "Design and deploy surveys across Web, Mobile, Zalo, SMS, Email, QR, POS."
+    ],
+    "how_it_helps": "Trigger surveys automatically via email/SMS after a transaction.",
+    "use_cases": [
+      "Collect customer feedback after purchase",
+      "Increase post-purchase engagement"
+    ],
+    "keywords": ["survey", "feedback", "automation", "post-purchase"]
+  },
+    {
+    "feature_id": "ai_inbox_01",
+    "feature_name": "AI Agent for FAQ & First Response",
+    "category": ["AI Customer Service - AI Inbox"],
+    "description": [
+        "A streamlined contact center where human agents collaborate with AI agents."
+    ],
+    "how_it_helps": "Deflects common queries and provides instant answers, freeing up human agents.",
+    "use_cases": [
+      "Reduce support workload",
+      "Handle repetitive customer queries",
+      "Improve first response time"
+    ],
+    "keywords": ["faq", "ai inbox", "automated reply", "first contact"]
+  },
+    {
+    "feature_id": "insight_experience_01",
+    "feature_name": "Customer Journey Experience Analysis",
+    "category": ["Insights - Experience"],
+    "description":[
+        "Understand customer experiences across touchpoints and channels with detailed topic analysis."
+    ],
+    "how_it_helps": "Identifies friction points by analyzing feedback and operational data across the journey.",
+    "use_cases": [
+      "Detect friction in customer journey",
+      "Visualize customer experience trends"
+    ],
+    "keywords": ["journey", "experience", "friction", "insight", "analysis"]
+  },
+  {
+    "feature_id": "customer360_01",
+    "feature_name": "Customer Profile with Interaction History",
+    "category": ["Customer 360 - Customers & AI Inbox"],
+    "description": ["Manage the entire customer base and perform segmentation."],
+    "how_it_helps": "Consolidates all touchpoints and past interactions for a comprehensive view.",
+    "use_cases": [
+      "View all customer touchpoints",
+      "Centralize interaction history",
+      "Personalize customer support"
+    ],
+    "keywords": ["customer 360", "profile", "interaction history", "unified view"]
+  },
+    {
+    "feature_id": "voc_conversations_01",
+    "feature_name": "AI-Powered Topic & Sentiment Analysis for VoC",
+    "category": ["VoC - Conversations/Surveys", "Insights - Experience"],
+    "description": [
+        "Listen to and analyze chat, call, and email interactions.",
+        "Understand customer experiences across touchpoints and channels with detailed topic analysis."
+    ],
+    "how_it_helps": "Automatically extracts key topics and sentiment from text feedback.",
+    "use_cases": [
+      "Monitor survey performance",
+      "Track agent productivity",
+      "Audit ticket handling efficiency"
+    ],
+    "keywords": ["kpi", "operation", "monitoring", "analytics"]
+  }
+]
