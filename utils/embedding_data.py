@@ -6,7 +6,7 @@ from pathlib import Path
 
 # Select computation device
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-print(f"[INFO] Using device: {device}")
+# print(f"[INFO] Using device: {device}") # Uncomment for debugging
 
 # Load embedding model
 model = SentenceTransformer("Qwen/Qwen3-Embedding-0.6B", device=device)
