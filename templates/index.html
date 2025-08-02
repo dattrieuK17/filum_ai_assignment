@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Filum.ai Assistant</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css" />
+  <script defer src="/static/chat.js"></script>
+</head>
+<body>
+  <div class="chat-container">
+    <header>
+      <h1><i class="bi bi-robot icon"></i> Filum.ai Assistant</h1>
+      <span class="tagline">AI-powered solutions for your challenges</span>
+    </header>
+    <main id="chat-window">
+      <div class="message bot">
+        <div class="avatar bot-avatar"><i class="bi bi-robot"></i></div>
+        <div class="bubble">Hello! I'm your AI assistant powered by Filum.ai. Tell me about any pain point or challenge you're facing, and I'll suggest personalized solutions from our feature suite to help you overcome it.</div>
+      </div>
+    </main>
+    <footer>
+      <form id="chat-form">
+        <input type="text" id="user-input" placeholder="Describe your pain point or challenge..." required />
+        <button type="submit" aria-label="Send message"><i class="bi bi-send"></i></button>
+      </form>
+    </footer>
+    <div class="loader" id="loader" style="display: none;"></div>
+  </div>
+</body>
+</html>
