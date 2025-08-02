@@ -5,7 +5,8 @@ import torch
 
 # Initialize embedding model
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-print(f"[INFO] Using device: {device}")
+# print(f"[INFO] Using device: {device}") # Uncomment for debugging
+
 model = SentenceTransformer("Qwen/Qwen3-Embedding-0.6B", device=device)
 
 def query(query_text: str, collection_name: str = "Filum_AI_Features", top_k: int = 1):
