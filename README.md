@@ -5,7 +5,7 @@ This repository design a **"Pain Point to Solution Agent."** This agent's primar
 ---
 
 ## ✨ Demo
-![This is an alt text.](.\static\demo_images\image.png "This is a sample image.")
+![This is an alt text.](https://github.com/dattrieuK17/filum_ai_assignment/blob/b6ec1af2d87d86df466628af0f28688ee5c9f051/static/demo_images/image.png "This is a sample image.")
 
 ## 🚀 How to Set Up and Run
 
