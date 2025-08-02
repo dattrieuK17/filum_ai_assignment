@@ -10,7 +10,7 @@ services:
       GRPC_PORT: '50051'
       AUTHENTICATION_ANONYMOUS_ACCESS_ENABLED: 'true'
       PERSISTENCE_DATA_PATH: './data'
-      DEFAULT_VECTORIZER_MODULE: 'none'  # Nếu bạn dùng embedding ngoài
+      DEFAULT_VECTORIZER_MODULE: 'none'
       CLUSTER_HOSTNAME: 'node1'
     volumes:
       - ./weaviate_data:/var/lib/weaviate
